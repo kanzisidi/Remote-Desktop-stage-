@@ -1,0 +1,61 @@
+# ==========================================
+# 0. Fichiers Systèmes et Éditeurs (IDE)
+# ==========================================
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# Éditeurs de code (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# ==========================================
+# 1. Agent C
+# ==========================================
+# Dossier de compilation
+agent/build/
+agent/bin/
+# Fichiers objets et binaires compilés
+agent/*.o
+agent/*.out
+agent/*.exe
+agent/*.a
+agent/*.so
+agent/*.dylib
+
+# ==========================================
+# 2. Serveur Go
+# ==========================================
+# Exécutables compilés 
+server/server
+server/server.exe
+server/*.exe
+# Dépendances locales
+server/vendor/
+
+# ==========================================
+# 3. Dashboard JS
+# ==========================================
+# Fichiers de configuration ou de dépendances
+dashboard/node_modules/
+dashboard/dist/
+dashboard/build/
+# Fichiers d'environnement
+dashboard/.env
+
+# ==========================================
+# 4. Client C# (.NET / Visual Studio)
+# ==========================================
+# Dossiers de compilation générés par Visual Studio ou le SDK .NET
+client/**/bin/
+client/**/obj/
+# Dossier caché de configuration Visual Studio
+client/.vs/
+# Fichiers de préférences utilisateur
+client/*.user
+client/*.suo
+# Bases de données locales ou caches
+client/*.sqlite
+client/*.db
